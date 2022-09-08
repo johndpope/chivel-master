@@ -8,7 +8,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@grikomsn/cal-sans": "^0.0.2",
     "@headlessui/react": "^1.4.2",
     "@prisma/client": "^3.6.0",
     "@radix-ui/react-tooltip": "^0.1.4",
