@@ -1,12 +1,28 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { UserContextProvider } from '@/utils/contexts/useUser';
+import GithubLink from "../components/GithubLink";
+import "../styles/globals.css";
+import "../styles/variables.css";
+import type {AppProps} from "next/app";
+import {ClerkProvider, RedirectToSignUp, SignedIn, SignedOut,} from "@clerk/nextjs";
+import {useRouter} from "next/router";
+import {Dashboard} from "../components/Dashboard";
+
 import { SWRConfig } from 'swr';
 import { Toaster } from 'react-hot-toast';
 import Script from 'next/script';
 import { NextSeo } from 'next-seo';
 
+
+  
+
+
 function MyApp({ Component, pageProps }: AppProps) {
+  const { pathname } = useRouter();
+
+  const publicPages = ["/sign-in/[[...index]]", "/sign-up/[[...index]]"]; 
+
   return (
     <div>
       <NextSeo
@@ -39,12 +55,18 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       )}
       <UserContextProvider>
+        
         <SWRConfig
           value={{ fetcher: (url) => fetch(url).then((res) => res.json()) }}>
           <Component {...pageProps} />
         </SWRConfig>
         <Toaster />
-      </UserContextProvider>
+      </UserContextProvider> <footer>
+        <GithubLink
+          label="Widget is a live demo that showcases how to add custom fields on the user"
+          repoLink="https://github.com/clerkinc/clerk-nextjs-examples/tree/main/examples/widget"
+        />
+      </footer>
     </div>
   );
 }

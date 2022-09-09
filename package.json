@@ -8,6 +8,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-js": "^4.3.5",
+    "@clerk/nextjs": "^4.1.7",
     "@headlessui/react": "^1.4.2",
     "@prisma/client": "^3.6.0",
     "@radix-ui/react-tooltip": "^0.1.4",
