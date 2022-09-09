@@ -3,7 +3,7 @@ export default function getConfigs() {
     loginUrl: process.env.NEXT_PUBLIC_LOGIN_URL || "/auth/login",
     baseUrl:
       process.env.NEXT_PUBLIC_BASE_URL ||
-      "https://unlimitednow.live" ||
-      "https://unlimitednow.live",
+      "https://unlimitednowlive.netlify.app" ||
+      "https://unlimitednowlive.netlify.app",
   };
 }
