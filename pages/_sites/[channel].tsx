@@ -14,7 +14,7 @@ const Page = ({ data }) => {
         title={data?.title}
         description={data?.description}
         openGraph={{
-          url: `https://${data?.subdomain}.unlimitednowlive.vercel.app/`,
+          url: `https://${data?.subdomain}.unlimitednow.live`,
           title: data?.title,
           description: data?.description,
           images: [
