@@ -22,7 +22,7 @@ const Page = ({ data }) => {
               url: data?.ogimage,
               height: 600,
               width: 1200,
-              alt: 'Chivel: Get a landing page for your YouTube channel in seconds.',
+              alt: 'Save time. Save Money.',
             },
           ],
         }}

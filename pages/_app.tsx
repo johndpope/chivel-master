@@ -10,19 +10,19 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div>
       <NextSeo
-        title='Chivel: Get a landing page for your YouTube channel.'
-        description='Just let Chivel know about a YouTube channel, and we get you a blazing fast and SEO friendly landing page for your amazing YT channel'
+        title='Unlimited Now Live'
+        description='Save Money. Save Time'
         openGraph={{
-          url: 'https://chivel.tk',
-          title: 'Chivel: Get a landing page for your YouTube channel.',
+          url: 'https://unlimitednow.live',
+          title: 'Save time and Money.',
           description:
             'Just let Chivel know about a YouTube channel, and we get you a blazing fast and SEO friendly landing page for your amazing YT channel',
           images: [
             {
               url: 'https://chivel.tk/ogimage.png',
               height: 600,
-              width: 1200,
-              alt: 'Chivel: Get a landing page for your YouTube channel in seconds.',
+              width: 600,
+              alt: 'Save time and money',
             },
           ],
         }}

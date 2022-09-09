@@ -5,7 +5,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <p className="text-2xl font-bold text-white select-none font-cal">
-          CHIVEL
+          Unlimit Potential®
         </p>
       </a>
     </Link>
