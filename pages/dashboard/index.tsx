@@ -37,8 +37,6 @@ const Page = () => {
             Lillie Dashboard
           </h1><h5 className='mb-10 text-5xl font-bold font-cal'>
             {user_metadata.email}
-            {user_metadata.username}
-            {user_metadata.full_name}&apos;
           </h5>
           <div className='flex w-[80%]'>
             <input
@@ -64,6 +62,8 @@ const Page = () => {
             {!channels?.length && !loading && <div>No channels found</div>}
           </div>
         </main>
+            {user_metadata.username}
+            {user_metadata.full_name}&apos;
       </div>
       <Modal
         title='Add a channel'
