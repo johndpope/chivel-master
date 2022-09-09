@@ -34,8 +34,10 @@ const Page = () => {
       <div className='w-full max-w-5xl mx-auto'>
         <main className='container px-4 mx-auto mt-7 md:px-8'>
           <h1 className='mb-10 text-5xl font-bold font-cal'>
-            {user_metadata.full_name}&apos;s Dashboard
-          </h1>
+            Lillie Dashboard
+          </h1><h5 className='mb-10 text-5xl font-bold font-cal'>
+            {user_metadata.full_name}&apos;
+          </h5>
           <div className='flex w-[80%]'>
             <input
               className='w-full bg-gray-800 rounded-l-sm'
