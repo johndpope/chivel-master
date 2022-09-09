@@ -16,7 +16,7 @@ Just let Chivel know your Youtube channel and choose a custom subdomain such as 
 Once a website is created, you get many options to customize it such as editing the Navbar, Analytics, adding announcement panels, etc.. 
 
 ## Tech Used
-
+s
 - Supabase DB - Database
 - Supabase Auth - Authentication
 - Supabase Storage - Og image hosting
