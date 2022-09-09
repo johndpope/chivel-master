@@ -4,7 +4,7 @@ export function middleware(req: NextRequest, ev: NextFetchEvent) {
   const host = req.headers.get('host');
   const { pathname } = req.nextUrl;
 
-  if (host?.includes('https://unlimitednowlive.vercel.app')) {
+  if (host?.includes('https://unlimitednow.live')) {
     if (host.includes('.')) {
       console.log(host?.split('.')[0]);
       return NextResponse.rewrite(`/_sites/${host?.split('.')[0]}`);
@@ -14,7 +14,7 @@ export function middleware(req: NextRequest, ev: NextFetchEvent) {
   if (pathname.startsWith(`/_sites`)) {
     return NextResponse.rewrite('/404');
   }
-  if (host?.startsWith('https://unlimitednowlive.vercel.app')) {
+  if (host?.startsWith('https://unlimitednow.live')) {
     return NextResponse.next();
   }
   const subdomain = host?.split('.')[0];
