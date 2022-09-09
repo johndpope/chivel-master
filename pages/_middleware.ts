@@ -4,7 +4,7 @@ export function middleware(req: NextRequest, ev: NextFetchEvent) {
   const host = req.headers.get('host');
   const { pathname } = req.nextUrl;
 
-  if (host?.includes('unlimitednow.live')) {
+  if (host?.includes('localhost:3000')) {
     if (host.includes('.')) {
       console.log(host?.split('.')[0]);
       return NextResponse.rewrite(`/_sites/${host?.split('.')[0]}`);
