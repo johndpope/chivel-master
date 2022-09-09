@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             'Just let Chivel know about a YouTube channel, and we get you a blazing fast and SEO friendly landing page for your amazing YT channel',
           images: [
             {
-              url: 'https://chivel.tk/ogimage.png',
+              url: 'https://unlimitednow.live/ogimage.png',
               height: 600,
               width: 600,
               alt: 'Save time and money',

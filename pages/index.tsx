@@ -12,11 +12,11 @@ const Home: NextPage = () => {
     <AppLayout>
       <div className='pt-32 text-6xl font-black text-center font-cal'>
         <h1>
-          Create a stunning landing page <br /> for your Youtube channel
+        Customize your site yourself or <br />  have a creator do it for you
           <br />
         </h1>
         <span className='text-transparent opacity-80 bg-clip-text bg-gradient-to-r from-yellow-300 via-purple-300 to-blue-500'>
-          in seconds.
+          Live. Grind. Surf
         </span>
       </div>
       <div className='mt-20'>
