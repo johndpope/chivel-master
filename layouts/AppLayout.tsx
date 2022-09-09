@@ -1,5 +1,8 @@
 import Navbar from 'components/common/Navbar';
 import { LayoutProps } from '../utils/types';
+import { PageMeta } from '../types';
+
+
 
 const AppLayout = ({ children }: LayoutProps) => {
   return (

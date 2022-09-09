@@ -36,8 +36,8 @@ const Page = () => {
           <h1 className='mb-10 text-5xl font-bold font-cal'>
             Lillie Dashboard
           </h1><h5 className='mb-10 text-5xl font-bold font-cal'>
-            {user_metadata.email};
-            {user_metadata.username};
+            {user_metadata.email}
+            {user_metadata.username}
             {user_metadata.fullname}&apos;
           </h5>
           <div className='flex w-[80%]'>
