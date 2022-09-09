@@ -14,7 +14,7 @@ export function middleware(req: NextRequest, ev: NextFetchEvent) {
   if (pathname.startsWith(`/_sites`)) {
     return NextResponse.rewrite('/404');
   }
-  if (host?.startsWith('chivel.tk')) {
+  if (host?.startsWith('unlimitednow.live')) {
     return NextResponse.next();
   }
   const subdomain = host?.split('.')[0];

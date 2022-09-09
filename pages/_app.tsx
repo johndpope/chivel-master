@@ -10,25 +10,25 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div>
       <NextSeo
-        title='Chivel: Get a landing page for your YouTube channel.'
-        description='Just let Chivel know about a YouTube channel, and we get you a blazing fast and SEO friendly landing page for your amazing YT channel'
+        title='Unlimited Now Live'
+        description='Earn more unlimited now'
         openGraph={{
-          url: 'https://chivel.tk',
-          title: 'Chivel: Get a landing page for your YouTube channel.',
+          url: 'https://unlimitednow.live',
+          title: 'Unlimited Now',
           description:
-            'Just let Chivel know about a YouTube channel, and we get you a blazing fast and SEO friendly landing page for your amazing YT channel',
+            'Save time and Money',
           images: [
             {
-              url: 'https://chivel.tk/ogimage.png',
+              url: 'https://unlimitednow.live/assets/images/red-and-black-friday-fashion-business-social-feed-ad-743x743.png',
               height: 600,
               width: 1200,
-              alt: 'Chivel: Get a landing page for your YouTube channel in seconds.',
+              alt: 'Save time and Money',
             },
           ],
         }}
         twitter={{
           cardType: 'summary_large_image',
-          handle: '@lalitcodes',
+          handle: '@unlimitednowio',
         }}
       />
       {process.env.NODE_ENV === 'production' && (

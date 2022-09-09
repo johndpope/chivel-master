@@ -160,7 +160,7 @@ const AddChannel = ({ setIsOpen }: Props) => {
                 id='subdomain'
               />
             </div>
-            <span className='self-end pl-3 relative -top-2'>.chivel.tk</span>
+            <span className='self-end pl-3 relative -top-2'>.unlimitednow.live</span>
           </p>
           <FormGroup
             label='Channel Description'

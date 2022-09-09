@@ -47,7 +47,7 @@ const Setup = () => {
         </p>
         <p>
           <a
-            href={`https://${channelData?.subdomain}.chivel.tk`}
+            href={`https://${channelData?.subdomain}.unlimitednow.live`}
             target='_blank'
             rel='noopener noreferrer'
             className='px-5 py-2 rounded my-4 block bg-gray-100 text-black hover:bg-green-400'>
@@ -56,7 +56,7 @@ const Setup = () => {
         </p>
         <p>
           <a
-            href={`https://developers.google.com/speed/pagespeed/insights/?url=https://${channelData?.subdomain}.chivel.tk`}
+            href={`https://developers.google.com/speed/pagespeed/insights/?url=https://${channelData?.subdomain}.unlimitednow.live`}
             rel='noopener noreferrer'
             target='_blank'
             className='px-5 py-2 rounded my-4 block bg-gray-100 text-black hover:bg-red-400'>

@@ -48,7 +48,7 @@ const TwitterPreview: React.FC<{
         <div className='py-3'>
           <p className='text-lg'>Check this website out.</p>
           <p className='text-lg text-twitter-blue'>
-            https://{subdomain}.chivel.tk
+            https://{subdomain}.unlimitednow.live
           </p>
           <div className='my-2 w-[90%] hover:bg-gray-700 group cursor-pointer'>
             <div>
